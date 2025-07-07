@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dřevostavby – Bydlení, které dává smysl</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6TTX7PDWZB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6TTX7PDWZB');
+  </script>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1348963149535592');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1348963149535592&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0b3d91;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 1rem;
+    }
+    .cta {
+      background-color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    .cta h2 {
+      color: #0b3d91;
+    }
+    .button {
+      background-color: orange;
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .feature {
+      background-color: white;
+      margin: 1rem;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      flex: 1 1 250px;
+      max-width: 300px;
+    }
+    .feature h3 {
+      color: #0b3d91;
+    }
+    footer {
+      background-color: #0b3d91;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://tvojehnizdo.cz/logo.png" alt="Tvoje Hnízdo logo" />
+    <h1>Bydlení, které dává smysl</h1>
+    <p>Dřevostavby od 1,8 mil. Kč – rychle, chytře a férově</p>
+    <a href="https://www.tvojehnizdo.cz" class="button">Navštívit hlavní web</a>
+  </header>
+
+  <section class="cta">
+    <h2>Spočítej si cenu svého domu</h2>
+    <p>Vyplň jednoduchý formulář a získej nezávaznou kalkulaci během 60 sekund.</p>
+    <a href="#formular" class="button">Spočítat cenu domu</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>Garance ceny</h3>
+      <p>U nás přesně víte, kolik dům stojí. Žádné vícenáklady.</p>
+    </div>
+    <div class="feature">
+      <h3>Výstavba do 90 dní</h3>
+      <p>Díky prefabrikaci bydlíte rychle a bez zbytečných průtahů.</p>
+    </div>
+    <div class="feature">
+      <h3>Dotace až 550 000 Kč</h3>
+      <p>Pomůžeme vám získat podporu z programu Nová zelená úsporám.</p>
+    </div>
+  </section>
+
+  <section class="cta" id="formular">
+    <h2>Nezávazná kalkulace</h2>
+    <form action="https://formspree.io/f/mwkgyvyo" method="POST">
+      <input type="text" name="name" placeholder="Jméno" required /> <br /><br />
+      <input type="email" name="email" placeholder="E-mail" required /> <br /><br />
+      <input type="tel" name="telefon" placeholder="Telefon" required /> <br /><br />
+      <select name="typ" required>
+        <option value="">Vyberte typ domu</option>
+        <option value="bungalov">Bungalov</option>
+        <option value="patrový">Patrový dům</option>
+        <option value="stavebnice">Stavebnice</option>
+      </select><br /><br />
+      <select name="dispozice" required>
+        <option value="">Vyberte dispozici</option>
+        <option value="3+kk">3+kk</option>
+        <option value="4+kk">4+kk</option>
+        <option value="5+kk">5+kk</option>
+      </select><br /><br />
+      <textarea name="poznamka" placeholder="Poznámka (nepovinné)" rows="4" cols="40"></textarea><br /><br />
+      <button class="button" type="submit">Odeslat poptávku</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Tvoje Hnízdo – Váš nový domov
+  </footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+FORMULÁŘ
+
+Zasílá data na: https://formspree.io/f/mwkgyvyo
+
+Pole:
+- Jméno (text)
+- E-mail (email)
+- Typ domu (select: Bungalov, Patrový dům, Stavebnice)
+
+Po odeslání dorazí e-mail a lze nastavit automatickou odpověď.
